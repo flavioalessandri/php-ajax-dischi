@@ -7,7 +7,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;800&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
 
-    
+
 
 
     <title>Music-Cards</title>
@@ -19,7 +19,7 @@
 
   <body>
 
-    <?php  include __DIR__ ."/data.php" ?>
+    <?php  include __DIR__ . "/data.php"; ?>
 
 
     <div class="container">

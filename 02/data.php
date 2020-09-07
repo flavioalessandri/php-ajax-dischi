@@ -1,7 +1,5 @@
 <?php
 
-header("Content-Type:application/json");
-
 
 
 $data =
@@ -81,6 +79,6 @@ $data =
     ]
 ];
 
-echo json_encode($data);
+
 
  ?>

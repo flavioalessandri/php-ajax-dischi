@@ -8,16 +8,14 @@ $genre = $_GET["genre"];
 
 $disks = $data["response"];
 
-$array =[];
-
-
 
   foreach ($disks as $disk) {
 
 
    if ($disk["genre"] == $genre) {
 
-     array_push($array,$disk) ;
+
+     $array[] = $disk;
 
   }
 
